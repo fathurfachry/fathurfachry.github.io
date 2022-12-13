@@ -161,7 +161,8 @@ input[type="checkbox"] {
 /* header  */
 
 header {
-  background: var(--color-bg2);
+  background-image: url("../img/bluepattern.png");
+  /* background: var(--color-bg2); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -551,6 +552,9 @@ header {
 }
 
 @media (max-width: 480px) {
+  .header__content {
+    padding-bottom: 20rem;
+  }
   .html {
     width: max-content;
   }
