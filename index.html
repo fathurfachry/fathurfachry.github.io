@@ -38,21 +38,23 @@
   <body>
     <!-- navbar -->
 
-    <nav>
-      <div class="logo">
-        <h2>Fachry Fauzan</h1>
-      </div>
-      <input type="checkbox" id="click" />
-      <label for="click" class="menu-btn">
-        <i class="fa-solid fa-bars"></i>
-      </label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#skill">My Skills</a></li>
-        <li><a href="#projects">My Projects</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-      </ul>
-    </nav>
+   <nav class="navbar">
+        <div class="navbar-item">
+          <div class="logo">
+            <a href="" class="name">Fachry Fauzan</a>
+          </div>
+          <ul class="menu">
+            <li><a href="#home" class="menu-btn">Home</a></li>
+            <li><a href="#about" class="menu-btn">Projects</a></li>
+            <li><a href="#skills" class="menu-btn">Skills</a></li>
+            <li><a href="#project" class="menu-btn">About Me</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
+            <button class="download_cv">
+                <a href="img/my_vc.png" id="cv" download="CV.png">Get CV</a>
+              </button>
+          </ul>
+        </div>
+      </nav>
 
     <!-- end navbar -->
 
@@ -62,17 +64,13 @@
       <div class="bg-image"></div>
       <div class="container header__container">
         <div class="header__content">
-          <h1 class="header__title">Hi, I'm Fachry Fauzan</h1>
+          <h3 class="hi">Hi, I'm</h3>
+          <h1 class="header__title">Fachry Fauzan</h1>
           <p class="header__text">
             Welcome to my portfolio website. I am, Fachry Fauzan presented my
             biography, skills, and galleries here.
           </p>
           <div style="display: flex; flex-direction: column">
-            <div>
-              <button class="btn__cv">
-                <a href="img/my_vc.png" id="cv" download="CV.png">My CV</a>
-              </button>
-            </div>
 
             <a href="#skill" class="btn__next" style="padding: 10px">Explore</a>
           </div>
